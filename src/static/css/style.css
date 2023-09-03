@@ -1,0 +1,301 @@
+a {
+    color: #4183c4;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #1b6ec2;
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+a:hover, a:active {
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 10px 0;
+    line-height: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 10px 0;
+    line-height: 40px;
+    text-align: center;
+}
+
+.Legend {
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.timeline-container {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 930px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.timeline-item:before, .timeline-item:after {
+    content: " ";
+    display: table;
+}
+
+.timeline-item:after {
+    clear: both;
+}
+
+.timeline-marker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    margin-left: -20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 2px solid #4183c4;
+    box-shadow: 0 0 0 2px #ffffff;
+}
+
+.timeline-content {
+    position: relative;
+    margin-left: 60px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.Search-Bar {
+    position: relative;
+    margin-left: 60px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+    top: 50%;
+    bottom: 50%;
+}
+
+.Inner-Search-Bar {
+    position: relative;
+    margin-left: 60px;
+    padding: 10px 20px;
+}
+
+.Python {
+    position: relative;
+    margin-left: 60px;
+    padding: 10px 20px;
+    background-color: #1898cf;
+    color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.Python:hover {
+    background-color: #2186eb;
+    color: #ffffff;
+}
+
+.Python:active {
+    background-color: #1b6ec2;
+    color: #ffffff;
+}
+
+.JavaScript {
+    position: relative;
+    margin-left: 60px;
+    padding: 10px 20px;
+    background-color: #f1e05a;
+    color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.JavaScript:hover {
+    background-color: #e4c419;
+    color: #ffffff;
+}
+
+.JavaScript:active {
+    background-color: #e4c419;
+    color: #ffffff;
+}
+
+.HTML {
+    position: relative;
+    margin-left: 60px;
+    padding: 10px 20px;
+    background-color: #e34c26;
+    color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.HTML:hover {
+    background-color: #d43f1d;
+    color: #ffffff;
+}
+
+.HTML:active {
+    background-color: #d43f1d;
+    color: #ffffff;
+}
+
+.CSS {
+    position: relative;
+    margin-left: 60px;
+    padding: 10px 20px;
+    background-color: #563d7c;
+    color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.CSS:hover {
+    background-color: #4c3273;
+    color: #ffffff;
+}
+
+.CSS:active {
+    background-color: #4c3273;
+    color: #ffffff;
+}
+
+.C {
+    position: relative;
+    margin-left: 60px;
+    padding: 10px 20px;
+    background-color: #555555;
+    color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.C:hover {
+    background-color: #4c4c4c;
+    color: #ffffff;
+}
+
+.C:active {
+    background-color: #4c4c4c;
+    color: #ffffff;
+}
+
+.Cpp {
+    position: relative;
+    margin-left: 60px;
+    padding: 10px 20px;
+    background-color: #f34b7d;
+    color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.Cpp:hover {
+    background-color: #e23d6d;
+    color: #ffffff;
+}
+
+.Cpp:active {
+    background-color: #e23d6d;
+    color: #ffffff;
+}
+
+.CSharp {
+    position: relative;
+    margin-left: 60px;
+    padding: 10px 20px;
+    background-color: #178600;
+    color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.CSharp:hover {
+    background-color: #0f7700;
+    color: #ffffff;
+}
+
+.CSharp:active {
+    background-color: #0f7700;
+    color: #ffffff;
+}
+
+.Go {
+    position: relative;
+    margin-left: 60px;
+    padding: 10px 20px;
+    background-color: #4babfa;
+    color: #000000;
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.Go:hover {
+    background-color: #3f9af7;
+    color: #000000;
+}
+
+.Go:active {
+    background-color: #3f9af7;
+    color: #000000;
+}
+
+.Rust {
+    position: relative;
+    margin-left: 60px;
+    padding: 10px 20px;
+    background-color: #dea584;
+    color: #000000;
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.Rust:hover {
+    background-color: #d08e6f;
+    color: #000000;
+}
+
+.Rust:active {
+    background-color: #d08e6f;
+    color: #000000;
+}

@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %} Git-Line {% endblock %}
+
+{% block content %}
+
+<h1>Git-Line</h1>
+
+<div class="container Search-Bar">
+    <form action="{{ url_for('timeline') }}" method="post">
+        <div class="field has-addons Inner-Search-Bar">
+            <div class="control">
+                <input class="input" type="text" name="userName" placeholder="Enter GitHub Username">
+            </div>
+            <div class="control">
+                <button class="button is-info" type="submit">Search</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+{% endblock %}

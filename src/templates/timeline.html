@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %} {{ userName }}'s Timeline {% endblock %}
+
+{% block content %}
+
+    <h1><a href="../">Git-Line</a></h1>
+
+    <h2>Timeline for {{ userName }}</h2>
+
+    <!--should be at the top left hand corner-->
+    <div class="container Legend">
+        <strong class="Python">Python</strong>
+        <strong class="JavaScript">Javascript</strong>
+    </div>
+
+    <div class="timeline-container">
+
+        {% for i in range(length) %}
+
+        <div class="{{ repos[i][5] }} timeline-content">
+            <a href="{{ repos[i][3] }}" class="title">{{ repos[i][0] }}</a>
+            <p class="heading"> Created at: {{ repos[i][1] }}</p>
+            <p class="heading"> Updated at: {{ repos[i][2] }}</p>
+            <p class="subtitle"><strong>{{ repos[i][4] }}</strong></p>
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+{% endblock %}
+```
